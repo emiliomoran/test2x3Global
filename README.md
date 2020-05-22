@@ -18,9 +18,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 # Endpoint
 
-GET /api/clients -> Get all clients
-GET /api/payments?client={id} -> Get all payments by client
-POST /api/payments -> Create a payment
+GET /api/clients -> Get all clients  
+GET /api/payments?client={id} -> Get all payments by client  
+POST /api/payments -> Create a payment  
 POST /api/pay -> Update status and payment date a payment
 
 # Examples data to sent in POST methods
