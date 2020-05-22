@@ -1,0 +1,2 @@
+create database db_global;
+GRANT ALL ON db_global.* TO 'global'@'localhost' IDENTIFIED BY '2x3global' WITH GRANT OPTION;
