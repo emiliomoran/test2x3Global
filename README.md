@@ -25,7 +25,7 @@ POST /api/pay -> Update status and payment date a payment
 
 # Examples data to sent in POST methods
 
-POST /api/payments
+POST /api/payments  
 Example:
 {
 "expires_at": "2020-02-26",
@@ -33,7 +33,7 @@ Example:
 "user_id": 4
 }
 
-POST /api/pay
+POST /api/pay  
 Example:
 {
 "uuid": "d163ee77-7c4a-4f45-be5f-84dd232127d7"
